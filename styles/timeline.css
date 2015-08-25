@@ -1,0 +1,407 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Disable selection/copy in UIWebView */
+   -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.wrapper {
+	
+	width: 100%;
+	background: #ccc;
+}
+	
+.scroller {
+	
+	width:100%;
+	background: #000;
+}
+	
+.scroller>li{
+	margin-bottom:10px;
+	border-radius:4px;
+	background:white;
+	color:#3e3a39;
+}
+
+.scroller li header{
+	width:100%;
+	padding:15px 10px 12px 10px;
+	margin-bottom: 14px;
+	border-bottom:1px dashed #d6d6d6;
+	position:relative;
+	display:inline-block;
+}
+
+.scroller li header p{
+	display:inline-block;
+	
+	line-height: 30px;
+	width:100%; 
+	font-size:14px; 
+}
+
+.feedHeader{
+	width:100%;
+	height:auto;
+	display:inline-block;
+}
+
+.feedHeader li{
+	width:50%;
+	padding-right:10px;
+	float:left;
+}
+
+.feedHeader .personSex{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+
+
+.feedHeader .headimg{
+	width:32px;
+	height:32px; 
+	line-height:30px;
+	border-radius: 500px; 
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20);
+	float:left;
+}
+
+.feedHeader .headimg img{
+	width:100%;
+	height:100%;
+	border-radius:500px;
+}
+
+
+.scroller .headimg i{
+	height:12px;
+	width:12px;
+}
+
+.feedHeader .personNaneSchool{
+ height:32px;
+ float:right;
+}
+
+.feedHeader .personNaneSchool p{
+	width:100%;
+	float:left;
+	overflow:hidden;
+}
+
+.feedHeader .personNaneSchool .personName{
+	height:20px;
+	font-size:12px;
+	line-height:20px;
+}
+
+.feedHeader .personNaneSchool .personSchool{
+	height:12px;
+	line-height:12px;
+	font-size:10px;
+	
+}
+
+.contentContainer>p {
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	width:100%;
+	font-size:14px;
+	height:auto;
+	padding: 0 12px;
+	line-height:22px;
+	display:inline-block;
+	
+}
+
+.recommendContainer p span {
+	width:100%;
+	height:auto;
+	
+	display:inline-block;
+}
+
+.recommendContainer button{
+	position: absolute;
+	bottom: -22px;
+	display: block;
+	padding: 24px 32px 24px 12px;
+	font-size: 12px;
+	color: #008aff;
+	cursor: pointer;
+	font-style: normal;
+	border: 0;
+	background: none;
+	outline: none;
+}
+
+.recommendContainer img{
+	width:100%;
+	height:auto;
+}
+
+footer.commendBar ul{
+	height:36px;
+	width:100%;
+	padding:0 10px 0 12px;
+}
+footer.commendBar li{
+	display:inline-block;
+	line-height:20px;
+	font-size:10px;
+	height:36px;
+	color:#9fa0a0;
+}
+
+footer.commendBar li:nth-child(2){
+	padding-right:0;
+}
+
+footer.commendBar li:first-child{
+	padding-top:5px;
+	float:left;
+}
+footer.commendBar li p{
+	height: 20px;
+	width: 30px;
+	text-align: right;
+	margin-right: 2px;
+	overflow: hidden;
+	float: left;
+	margin-top:6px;
+}
+footer.commendBar li p,footer.commendBar li time{
+	line-height:24px;
+}
+
+footer.commendBar li i{
+	width:20px;
+	height:20px;
+	background-size:100% 100%;
+	display:inline-block;
+	margin-top:7px;
+}
+
+footer.commendBar li:nth-child(4) i{
+	background-image: url(../images/ios/cardmsg@2x.png);
+}
+
+footer.commendBar li:nth-child(4) i.ng-click-active, footer.commendBar li.ng-click-active i{
+	background-image: url(../images/ios/cardmsghighlight@2x.png);
+}
+
+footer.commendBar li:nth-child(4) :active i{
+	background-image: url(../images/ios/cardmsghighlight@2x.png);
+}
+
+footer.commendBar li:nth-child(3) i.neverShit{
+	background-image: url(../images/ios/shit@2x.png)
+}
+
+footer.commendBar li:nth-child(3) i.doShit{
+	background-image: url(../images/ios/shithighlight@2x.png)
+}
+
+footer.commendBar li:nth-child(2) i.dolike{
+	background-image:url(../images/ios/hearthighlight@2x.png);
+}
+
+footer.commendBar li:nth-child(2) i.neverlike{
+	background-image:url(../images/ios/heart@2x.png);
+}
+
+.feedsTimeLineHeader{
+	border-radius:4px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+
+
+.presentMainPageHeader{
+	height: 150px;
+	width: 100%;
+	position:relative;
+	text-align:center;
+	overflow:hidden;
+}
+
+
+
+.presentMainPageHeader>img{
+	width: 110%;
+	height: auto;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+
+
+.presentMainPageHeader .backgroundContainer {
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-align:center;
+	top:0;
+	left:0;
+	background:rgba(247, 73, 100, 0.5);
+}
+
+.presentMainPageHeader .backgroundContainer>ul>li,.presentMainPageHeader .backgroundContainer>ul{
+	display:inline-block;
+	height:100%;
+}
+
+.presentMainPageHeader .backgroundContainer>ul{
+	margin:0 auto;
+}
+
+.presentMainPageHeader .backgroundContainer>ul>li:nth-child(2){
+	width:13px;
+}
+
+.presentMainPageHeader .backgroundContainer>ul>li:nth-child(2) i{
+	height:13px;
+	width:13px;
+	margin-top:44px;
+	display:inline-block;
+	background: url(../images/ios/arrowwhie@2x.png);
+	background-size: 100% 100%;
+}
+
+.presentMainPageHeader .backgroundContainer>ul>li ul {
+	width:124px;
+	color:white;
+	text-align:center;
+}
+
+.presentMainPageHeader .backgroundContainer>ul>li ul li:nth-child(2){
+	height:16px;
+	font-size:16px;
+	line-height: 16px;
+}
+.presentMainPageHeader .backgroundContainer>ul>li ul li:nth-child(3){
+	height:25px;
+	line-height: 25px;
+	font-size:10px;
+}
+
+.presentMainPageHeader .backgroundContainer>ul>li ul li:nth-child(4){
+	width: 40px;
+	height: 11px;
+	display:block;
+	margin: 0 auto;
+	color:green;
+	background: url(../images/ios/mark@2x.png);
+	background-size: 100% 100%;
+}
+
+.presentMainPageHeader  .headimgWarrper{
+	position:relative;
+	border: 2px solid rgba(255, 255, 255, 0.8);
+	border-radius:4000px;	
+}
+
+.presentMainPageHeader .presenterHeadImg .headimgWarrper{
+	height:80px;
+	width:80px;
+	margin: 10px auto;
+}
+
+.presentMainPageHeader  .headimg{
+	width:100%;
+	height:100%;
+}
+
+
+.presentMainPageHeader .presenteeHeadImg .headimgWarrper{
+	height:60px;
+	width:60px;
+	margin: 20px auto ;
+}
+
+.presentMainPageHeader .presenteeHeadImg .headimg{
+	line-height: 56px;
+	font-size:30px;
+	text-align:center;
+}
+.headimg{
+	position:relative;
+}
+
+.presentMainPageHeader  .headimg>img{
+	width:100%;
+	height:100%;
+	border-radius:4000px;
+	box-sizing: content-box;
+}
+
+.presentMainPageHeader  .headimg>div ,.scroller li header  .headimg>div{
+	width:100%;
+	height:100%;
+	border-radius:4000px;
+	/*border: 2px solid rgba(255, 255, 255, 1);*/
+	position:relative;
+	box-sizing: content-box;
+	
+}
+
+.nikeNameFirstWord{
+	width:100%;
+	height:100%;
+	border-radius:4000px;
+	color:white;
+	 text-align: center;
+	background:url(../images/ios/photobackground@2x.png);
+	background-size:100% 100%;
+}
+  .headimg i{
+	position:absolute;
+	bottom: 0;
+	right:0;
+	display:block;
+	width:16px;
+	height:16px;
+}
+
+.headimg i>img{
+	width:100%;
+	height:100%;
+	position:absolute;
+	right: 0;
+  	bottom: 0;
+}
+
+
+.feedContent{
+	width:100%;
+	margin-bottom:10px;
+}
+
+
+
+.feedDetail p, .feedDetail footer{
+	background:white;
+	width:100%;
+}
+
+.feedContent>p{
+	padding:10px 14px;
+	color:#3e3a39;
+}
+
+.feedDetail footer{
+	padding-bottom:10px;
+}
+
+
+.scroller li header>div div.nikeNameFirstWord{
+	margin-top:-2px;
+}

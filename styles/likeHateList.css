@@ -1,0 +1,64 @@
+
+.likeHateList{
+	width:100%;
+	height:auto;
+	margin-top:10px;
+	padding-top:10px;
+	padding-left:10px;
+	background:white;}
+
+.likeHateList>li{
+	width:100%;
+	padding-top:10px;
+	padding-bottom:4px;
+	border-bottom:1px #9fa0a0 solid;
+}
+
+.likeHateList>li:last-child {
+	border-bottom: none;
+}
+
+.likeHateList>li ul{
+	width:100%;
+	display:inline-block;
+}
+
+
+
+.likeHateList ul.likeHateListDetail li:nth-child(2){
+	-webkit-flex:1;
+}
+.likeHateList ul.likeHateListDetail li:first-child{
+	width:45px;
+	height:45px;
+	margin-right:10px;
+	border-radius:45px;
+}
+.likeHateList ul.likeHateListDetail  li:last-child{
+	width:52px;
+	height:52px;
+	margin:0 10px;
+	border-radius:52px;
+}
+
+.likeHateList ul.likeHateListDetail li img{
+	width:100%;
+	height:100%;
+}
+.likeHateList ul.likeHateListDetail li p,.likeHateList ul.likeHateListDetail li time{
+	width:100%;
+}
+.likeHateList ul.likeHateListDetail li p:first-child{
+	height:18px;
+	line-height:18px;
+	font-size:10px;
+}
+.likeHateList ul.likeHateListDetail li p:nth-child(2){
+	height:18px;
+	line-height:18px;
+	font-size:14px;
+}
+.likeHateList ul.likeHateListDetail li time{
+	height:10px;
+	font-size:10px;
+}

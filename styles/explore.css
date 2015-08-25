@@ -1,0 +1,71 @@
+.exploreContainer{
+	width:100%;
+	overflow-x:hidden;
+}
+.exploreTypeContainer{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:44px;
+	background:#2f2725;
+	color:white;
+	text-align:center;
+}
+
+.exploreTypeContainer .selectBtn{
+	position: absolute;
+	top:0;
+	right:12px;
+	height:44px;
+	line-height:44px;
+	background:transparent;	
+	color:white;
+	border:none;
+	outline:none;
+	font-size:16px;
+}
+
+.exploreType{
+	display:inline-block;
+	margin: 0 auto;
+	margin-top:7px;
+}
+
+.exploreType a{
+	height:28px;
+	width:62px;
+	line-height:28px;
+	float:left;
+	font-size:14px;
+	border:1px solid white;
+	display:inline-block;
+	outline:none;
+	
+}
+
+
+
+.exploreType a:first-child{
+	border-radius: 14px 0 0 14px;
+}
+
+.exploreType a:last-child{
+	border-radius: 0 14px  14px 0;
+}
+
+.exploreType a.selected{
+	background:white;
+	color:#454545;
+}
+
+
+
+.tabContainer{
+	height:auto;
+	padding:44px 0 55px 0;
+}
+
+.exploreList{
+	background:white;
+}

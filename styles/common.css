@@ -1,0 +1,98 @@
+/* Space out content a bit */
+
+body {
+  height:100%;
+  width:100%;
+  overflow-y:auto;
+  background: #000;
+  -webkit-overflow-scrolling: touch;
+}
+
+/*微信点击去蓝边*/
+ * { -webkit-tap-highlight-color: transparent }
+
+ol, ul, li {
+  list-style: none; }
+
+#viewContainer{
+	height:100%;
+    width:100%;
+}
+
+#viewContainer>article{
+	padding:5px;
+}
+
+.blur {    
+    -webkit-filter: blur(5px); /* Chrome, Opera */
+       -moz-filter: blur(5px);
+        -ms-filter: blur(5px);    
+            filter: blur(5px);    
+}
+
+.cSmallestFont{
+	color:#9fa0a0;
+}
+
+.cFont12{
+	color:#3e3a39;
+}
+
+.cFont16{
+	color:#3e3a39;
+}
+
+.contentContainer{
+	width:100%;
+	height:auto;
+}
+
+.contentcontainerOverflow{
+	position:relative;
+	padding-bottom:26px;
+}
+
+.recommendWordsOverflow{
+	overflow:hidden;
+	position:relative;
+	padding-bottom:20px;
+	max-height:132px;
+}
+
+.tagsContainer{
+	width:100%;
+	height:auto;
+	padding:12px 3px 12px 12px;
+	background:white;
+}
+
+.tagsContainer ul{
+	text-align:center;
+}
+
+.tagsContainer li , .tag{
+	display:inline-block;
+	height:18px;
+	line-height:18px;
+	color:white;
+	padding: 0 12px;
+	background:#f74964;
+	margin-right:9px;
+	border-radius:4px;
+	margin-bottom:6px;
+}
+
+.tabContainer{
+	width:100%;
+	overflow-x : hidden;
+}
+.tabContentContainer{
+	position:relative;
+	width:100%;
+}
+.tabContentContainer>li{
+	position: absolute;
+	top:0;
+	background:white;
+	width:100%;
+}
